@@ -1,0 +1,290 @@
+Python 3.8.10 (default, Sep 28 2021, 16:10:42) 
+[GCC 9.3.0] on linux
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> print("Hello World!")
+Hello World!
+>>> 
+KeyboardInterrupt
+>>> 
+KeyboardInterrupt
+>>> pint("Hello World!")
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/idlelib/run.py", line 559, in runcode
+    exec(code, self.locals)
+  File "<pyshell#1>", line 1, in <module>
+NameError: name 'pint' is not defined
+>>> print("I LOVE MY HONEY!")
+I LOVE MY HONEY!
+>>> 
+======================= RESTART: /home/rob/Hello World.py ======================
+Hello World!
+>>> 2+2
+4
+>>> 2-2
+0
+>>> 2/2
+1.0
+>>> 1+2*3
+7
+>>> bananas=5
+>>> bananasEaten=2
+>>> 4
+>>> 
+>>> 
+>>> bananas=5
+>>> bananasEaten=2
+>>> bananas-bananasEaten
+3
+>>> bananas=10
+>>> bananas-bananasEaten
+8
+>>> bananas=2
+>>> bananas-bananasEaten
+0
+>>> bananas=2
+>>> bananasEaten=0
+>>> bananas-bananasEaten
+2
+>>> bananasEaten=8
+>>> bananas-bananasEaten
+-6
+>>> rum shots=10
+SyntaxError: invalid syntax
+>>> rumshots=10
+>>> shotstaken=4
+>>> rumshots-shotstaken
+6
+>>> rumshots=12
+>>> shotsTaken-6
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/idlelib/run.py", line 559, in runcode
+    exec(code, self.locals)
+  File "<pyshell#29>", line 1, in <module>
+NameError: name 'shotsTaken' is not defined
+>>> rumshots=12
+>>> shotsTaken=6
+>>> runshots-shotsTaken
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/idlelib/run.py", line 559, in runcode
+    exec(code, self.locals)
+  File "<pyshell#32>", line 1, in <module>
+NameError: name 'runshots' is not defined
+>>> rumshots=12
+>>> shotsTaken=6
+>>> rumshots-shotsTaken
+6
+>>> name=input("What is your name?")
+What is your name?Rob
+>>> print(name)
+Rob
+>>> name=input("what is you name?")
+what is you name?rabena
+>>> print(name)
+rabena
+>>> 
+========================== RESTART: /home/rob/Happy.py =========================
+create your character!
+what is your character called?Albert
+how old is your character?3
+what are your character's strenghts?Bulbousness, ability to store water for a long time, and scraggly hair
+what are your characters weaknesses?Cannot move very fast
+Your character's name is Albert
+Your character is 3 years old
+strenghts: Bulbousness, ability to store water for a long time, and scraggly hair
+weaknesses: Cannot move very fast
+Albert says, 'Thank you for creating me!'
+>>> 
+========================== RESTART: /home/rob/Happy.py =========================
+create your character!
+what is your character called?Albert
+how old is your character?3
+what are your character's strenghts?big hair
+what are your characters weaknesses?slow
+Your character's name is Albert
+Your character is 3 years old
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/idlelib/run.py", line 559, in runcode
+    exec(code, self.locals)
+  File "/home/rob/Happy.py", line 10, in <module>
+    print("strenghts:",strenghts)
+NameError: name 'strenghts' is not defined
+>>> 
+========================== RESTART: /home/rob/Happy.py =========================
+create your character!
+what is your character called?Albert
+how old is your character?3
+what are your character's strenghts?big hair
+what are your characters weaknesses?slow
+Your character's name is Albert
+Your character is 3 years old
+strenghts: big hair
+weaknesses: slow
+Albert says, 'Thank you for creating me!'
+>>> 
+======================= RESTART: /home/rob/Programme3.py =======================
+create your Marvel character!
+what is your Marvel charater's name?Captain Honeypie
+what is your character's superpower?Kisses
+what colour is your character's costume?Blue
+Your character fights for, evil or good?Good
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/idlelib/run.py", line 559, in runcode
+    exec(code, self.locals)
+  File "/home/rob/Programme3.py", line 6, in <module>
+    Print("Your characters name is", name)
+NameError: name 'Print' is not defined
+>>> 
+======================= RESTART: /home/rob/Programme3.py =======================
+create your Marvel character!
+what is your Marvel charater's name?Captain Honeypie
+what is your character's superpower?Kisses
+what colour is your character's costume?Blue
+Your character fights for, evil or good?Good
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/idlelib/run.py", line 559, in runcode
+    exec(code, self.locals)
+  File "/home/rob/Programme3.py", line 6, in <module>
+    Print("Your character's name is", name)
+NameError: name 'Print' is not defined
+>>> 
+======================= RESTART: /home/rob/Programme3.py =======================
+create your Marvel character!
+what is your Marvel charater's name?Captain Honeypie
+what is your character's superpower?Kisses
+what colour is your character's costume?Blue
+Your character fights for, evil or good?Good
+Your character's name is Captain Honeypie
+Your characters superpower is Kisses
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/idlelib/run.py", line 559, in runcode
+    exec(code, self.locals)
+  File "/home/rob/Programme3.py", line 8, in <module>
+    print("Your characters costume is", colour)
+NameError: name 'colour' is not defined
+>>> 
+======================= RESTART: /home/rob/Programme3.py =======================
+create your Marvel character!
+what is your Marvel charater's name?Captain Honeypie
+what is your character's superpower?Kisses
+what colour is your character's costume?Blue
+Your character fights for, evil or good?Good
+Your character's name is Captain Honeypie
+Your characters superpower is Kisses
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/idlelib/run.py", line 559, in runcode
+    exec(code, self.locals)
+  File "/home/rob/Programme3.py", line 8, in <module>
+    print("Your characters costume is", colour)
+NameError: name 'colour' is not defined
+>>> 
+======================= RESTART: /home/rob/Programme3.py =======================
+create your Marvel character!
+what is your Marvel charater's name?Captain Honeypie
+what is your character's superpower?Kisses
+what colour is your character's costume?Blue
+Your character fights for, evil or good?Good
+Your character's name is Captain Honeypie
+Your characters superpower is Kisses
+Your characters costume is Blue
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/idlelib/run.py", line 559, in runcode
+    exec(code, self.locals)
+  File "/home/rob/Programme3.py", line 9, in <module>
+    print("Your character fights for", evilorgood)
+NameError: name 'evilorgood' is not defined
+>>> 
+======================= RESTART: /home/rob/Programme3.py =======================
+create your Marvel character!
+what is your Marvel charater's name?Captain Honeypie
+what is your character's superpower?Kisses
+what colour is your character's costume?Blue
+Your character fights for, evil or good?Good
+Your character's name is Captain Honeypie
+Your characters superpower is Kisses
+Your characters costume is Blue
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/idlelib/run.py", line 559, in runcode
+    exec(code, self.locals)
+  File "/home/rob/Programme3.py", line 9, in <module>
+    print("Your character fights for", evilorgood)
+NameError: name 'evilorgood' is not defined
+>>> 
+======================= RESTART: /home/rob/Programme3.py =======================
+create your Marvel character!
+what is your Marvel charater's name?Captain Honeypie
+what is your character's superpower?Kisses
+what colour is your character's costume?Blue
+Your character fights for, evil or good?Good
+Your character's name is Captain Honeypie
+Your characters superpower is Kisses
+Your characters costume is Blue
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/idlelib/run.py", line 559, in runcode
+    exec(code, self.locals)
+  File "/home/rob/Programme3.py", line 9, in <module>
+    print("Your character fights for", evilorgood)
+NameError: name 'evilorgood' is not defined
+>>> 
+======================= RESTART: /home/rob/Programme3.py =======================
+create your Marvel character!
+what is your Marvel charater's name?Captain Honeypie
+what is your character's superpower?Kisses
+what colour is your character's costume?Blue
+Does your your character fights for, evil or good?Good
+Your character's name is Captain Honeypie
+Your characters superpower is Kisses
+Your characters costume is Blue
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/idlelib/run.py", line 559, in runcode
+    exec(code, self.locals)
+  File "/home/rob/Programme3.py", line 9, in <module>
+    print("Your character fights for", evilorgood)
+NameError: name 'evilorgood' is not defined
+>>> 
+======================= RESTART: /home/rob/Programme3.py =======================
+create your Marvel character!
+what is your Marvel charater's name?Captain HoneypieYour characters superpower is Kisses
+what is your character's superpower?Kisses
+what colour is your character's costume?Blue
+Does your your character fight for evil or good?Good
+Your character's name is Captain HoneypieYour characters superpower is Kisses
+Your characters superpower is Kisses
+Your characters costume is Blue
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/idlelib/run.py", line 559, in runcode
+    exec(code, self.locals)
+  File "/home/rob/Programme3.py", line 9, in <module>
+    print("fights for", evil or good)
+NameError: name 'evil' is not defined
+>>> 
+======================= RESTART: /home/rob/Programme3.py =======================
+create your Marvel character!
+what is your Marvel charater's name?captain Honeypie
+what is your character's superpower?kisses
+what colour is your character's costume?Blue
+Does your your character fight for evil or good?Good
+Your character's name is captain Honeypie
+Your characters superpower is kisses
+Your characters costume is Blue
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/idlelib/run.py", line 559, in runcode
+    exec(code, self.locals)
+  File "/home/rob/Programme3.py", line 9, in <module>
+    print("fights for", evilorgood)
+NameError: name 'evilorgood' is not defined
+>>> 
+======================= RESTART: /home/rob/Programme3.py =======================
+create your Marvel character!
+what is your Marvel charater's name?Captain Honeypie
+what is your character's superpower?Kisses
+what colour is your character's costume?Blue
+Does your your character fight for evil or good?Good
+Your character's name is Captain Honeypie
+Your characters superpower is Kisses
+Your characters costume is Blue
+fights for Good
+welcome to Marvel Captain Honeypie
+>>> exit
+Use exit() or Ctrl-D (i.e. EOF) to exit
+>>> 
+
